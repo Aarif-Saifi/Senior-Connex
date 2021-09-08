@@ -1,0 +1,31 @@
+@media all and (min-width: 480px) {
+  .Signup form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .profile {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  .profile > .row {
+    margin-bottom: 1%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .Signup,.profile{
+    margin: 0 5%;
+  }
+}
+
+.react-timekeeper__clock-wrapper{
+  display: none;
+}
+
+.css-nakgy8-TimeKeeper{
+  width: auto !important;
+}
+
+.css-upwegn-TopBar{
+  padding: 0% !important;
+}
